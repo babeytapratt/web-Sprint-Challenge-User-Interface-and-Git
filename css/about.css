@@ -77,15 +77,20 @@ a{
     font-size: 1rem;
 }
 
-header nav{
+header{
     display: flex;
     justify-content: space-between;
-    padding: 1% 30% 2% 30%;
-    margin-left: -3%;
 }
 
-nav a{
-    padding-top: 4%;
+nav{
+    justify-items: center;
+    margin-right: 49%;
+    padding-top: 3.6%;
+
+}
+
+.logo{
+    padding: 2.25% 0 2% 27%;
 }
 
 .jumboAbout{
@@ -94,9 +99,9 @@ nav a{
 }
 
 .container-about-page{
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     border-bottom: 1px dashed black;
-    margin: -1% 28% 1% 27%;
+    margin: -1% 28.1% 1% 27%;
 }
 
 .container-text{
@@ -109,30 +114,29 @@ nav a{
     display:flex;
 }
 
+.strategy-container{
+    border-bottom: 2px dotted black;
+    margin-left: 28%;
+    width: 19.4%;
+    padding-bottom: 3%;
+}
+
 .middle-section1 .learn-more{
     border: 2px solid black;
     border-radius: 10px;
     text-align: center;
     padding: 1% 3%;
-}
-
-.strategy{
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-    padding: 0.5% 0 3% 0;
-    margin-left: 28%;
-    margin-bottom: -2%;
+    margin-bottom: 6%;
 }
 
 .strategy h2{
     padding-top: 2%;
 }
 
-.how-we-work{
+.how-we-work-container{
     border-bottom: 1px dashed black;
-    margin-right: 30%;
-    margin-top: 0.5%;
-    margin-bottom: -2%;
+    margin-left: 4%;
+    width: 19.4%;
 }
 
 .how-we-work h2{
@@ -152,35 +156,32 @@ nav a{
     padding: 1% 3%;
 }
 
-.places-we-work{
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.places-we-work-container{
+    border-bottom: 2px dotted black;
     margin-left: 28%;
-    margin-top: 0.5%;
-    margin-bottom: -3%;
+    width: 19.4%;
     padding-bottom: 3%;
 }
 
 .places-we-work h2{
-    padding-top: 1%;
+    padding-top: 2%;
 }
 
-.collaboration{
-    margin-bottom: 20px;
+.collaboration-container{
     border-bottom: 1px dashed black;
-    margin-right: 30%;
-    margin-top: 0.5%;
-    margin-bottom: -3%;
+    margin-left: 4%;
+    width: 19.4%;
+    padding-bottom: 3%;
 }
 
 .collaboration h2{
-    padding-top: 1%;
+    padding-top: 2%;
 }
 
 .container-work-together{
     display: flex;
     flex-direction: column;
-    padding: 5% 30% 0 28%;
+    padding: 2% 30% 0 28.5%;
 }
 
 footer {
@@ -193,11 +194,11 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 65%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2% 25px 2%;
+    padding: 4% 3% 4% 3%;
     font-size: 14px;
 }
 
